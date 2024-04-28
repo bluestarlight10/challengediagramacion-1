@@ -1,0 +1,116 @@
+.site {
+    width: 100vw;
+    height: 48.5vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #FAFAF9;
+    height: auto;
+    margin: 0;
+    padding: 50px;
+    padding-top: 5%;
+    font-family: "Sora", sans-serif;
+}
+
+.star {
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #eeb600;
+    padding-left: 8px;
+    padding-top: 4px;
+    margin-bottom: -15px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.Rewievers {
+    width: 590px;
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    min-width: 250px;
+    font-family: "Sora", sans-serif;
+    margin-top: 60px;
+}
+
+.textp {
+    line-height: 35px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+p {
+    color: #52525a;
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+.check {
+    margin: 0px;
+    display: flex;
+}
+
+img {
+    padding-right: 10px;
+}
+
+.cajas {
+    margin-top: 60px;
+    display: table-column;
+    width: 600px;
+}
+
+.google {
+    width: 300px;
+    height: 180px;
+    margin-bottom: 8%;
+    margin-left: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 3px 50px #D4D4D8;
+}
+
+.logo {
+    width: 90px;
+}
+
+.meta {
+    width: 300px;
+    height: 180px;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 3px 50px #D4D4D8;
+}
+
+h1 {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+@media screen and ( max-width: 640px) 
+{
+    .google{
+        position: relative;
+        left: 40%;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    .site{
+        flex-direction: column;
+    }
+    .Rewievers,
+    .cajas{
+        width: 100%;
+    }
+}
+    
